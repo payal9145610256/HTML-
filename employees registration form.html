@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+       <meta charset="UTF=8">
+	   <meta name="viewport"content="width=device-width,inicial-scale=1.0">
+       <title>Employee Registration Form</title>
+</head>
+<body>
+	  <form action="1"method="post"enctype="multipart/form-data">
+		  <h1>Employee Registration Form</h1>
+	 <fieldset>
+	  
+	   <table>
+	  
+	       <legend>Basic personal details</legend>
+	 
+	   <tr>
+	         <td><label for="full name">Full Name:</label></td>
+			 <td><input type="text"id="full name" required></td>
+	   </tr>
+	   <tr>
+	        <td><label for="gender">Gender:</label></td>
+			<td>
+			<select id="gender" name="gender"required>
+			<option value="">Select Gender</option>
+			<option value="male">male</option>
+		    <option value="female">female</option>
+	        <option value="other">other</option>
+	        </select>
+		</td>
+		</tr>
+		<tr>
+		     <td><label for="dob">Date of birth:</label>
+			 <td><input type="date"id="dob" name="dob" required></td>
+		</tr>
+		<tr>
+		     <td><label for="email">Email adress:</label>
+			 <td><input type="email"id="email" name="email" required></td>
+		</tr>
+		<tr>
+		     <td><label for="contact number">Contact Number:</label></td>
+			 <td><input type="tel"id="contact number" name="contact number" required pattern="[0-9]{10}"></td>
+		</tr>
+		 </table>
+	</fieldset>
+	
+	<fieldset>
+	<table>
+		<tr>
+		     <legend>Qualification details </legend>
+		</tr>
+		<tr>
+		     <td><label for="qualifications">Qualifications:</label></td>
+			 <td><input type="text"id="qualifications" name="Qualifications" required></td>
+		</tr>
+		<tr>
+		    <td><label for="degree">Degree:</label></td>
+            <td>
+			<select id="degree"name="degree" required>
+		       <option value="">Select Degree</option>
+			   <option value="male">B.tech</option>
+		       <option value="female">B.tech</option>
+	           <option value="other">M.pharm</option>
+	        </select>    
+		    </td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset>
+        <tr>
+             <td><label for="year of completion">Year of completion:</label></td>
+			 <td><input type="year"id="year of completion" name="year of completion" required></td>
+		</tr>
+		</fieldset>
+		
+		<table>
+		<fieldset>
+		<tr>
+		     <td><label for="address"> permanent adress:</label></td>
+			 <td><input type="adress"id="adress" name="adress" required></td>
+		</tr>
+		<tr>
+		     <td><label for="address"> Current adress:</label></td>
+			 <td><input type="adress"id="adress" name="adress" required></td>
+		</tr>
+		</fieldset>
+		</table>
+		
+		<fieldset>
+		<tr>
+		     <td><label for="hobbies">Hobbies:</label></td>
+			 <td><textarea id="hobbies" name="hobbies"></textarea></td>
+	    </tr>
+		</fieldset>
+		
+		<fieldset>
+		<tr>
+		     <td><label for="exprience">Exprience:</label></td>
+			 <td><textarea id="exprience" name="exprience"></textarea></td>
+	    </tr>
+		</fieldset>
+		
+		
+		<fieldset>
+		<tr>
+		     <td><label for="current salary">Current Salary:</label></td>
+			 <td><input type="text"id="current salary" name="current salary"name="current salary"</td>
+		</tr>
+
+		<tr>
+		     <td><label for="expected salary">Expeted Salary:</label></td>
+			 <td><input type="text"id="expected salary" name="expected salary"name="expected salary"</td>
+		</tr>
+		</fieldset>
+		
+		
+		<tr>
+		     <td><label for="joining date">Date of joining:</label></td>
+			 <td><input type="date"id="joining date" name="joining date"name="joining date"</td>
+		</tr><br>
+		<tr>
+		     <td><label for="profile pic">Profile pic:</label></td>
+			 <td><input type="file"id="profile pic" name="profile pic"name="profile pic"</td>
+		</tr><br>
+     </table>
+      <input type="submit" value="submit">
+</form>	  
+</body>
+</html>		
+		

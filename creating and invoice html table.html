@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice</title>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Mahindra & Mahindra Company</h1>
+            <!-- Assuming there is a logo to be displayed -->
+            <img src="Mahindra.JPG" width="500" height="300"alt="Company Logo">
+        </header>
+        
+        <section id="invoice-details">
+            <h2>Invoice Details</h2>
+            <p><strong>Invoice Number:</strong>PSQR</p>
+            <p><strong>Date:</strong> April 09, 2024</p>
+            <p><strong>Customer:</strong>Payal Shinde</p>
+            <p>at.post arala<br>at.arala tal-shirala dist-sangali</p>
+        </section>
+        
+        <section id="invoice-table">
+            <h2>Invoice Items</h2>
+            <table width="400"height="300"border="2">
+
+                <thead>
+	                </tr>
+                        <th>Item Description</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product A</td>
+                        <td>2</td>
+                        <td colspan ="2">4000</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Service B</td>
+                        <td>1</td>
+                        <td rowspan="2">3000</td>
+						<td rowspan="2">5000</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Product C</td>
+                        <td>3</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="invoice-total">
+            <table class="total">
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Subtotal</td>
+                        <td>7900</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Tax (18%)</td>
+                        <td>3600</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Total</td>
+                        <td>5600</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        
+        <footer>
+            <h3>Terms &amp; Conditions:</h3>
+            <p>Payment is due within 30 days. Late payments are subject to a 3% interest charge.</p>
+        </footer>
+    </div>
+</body>
+</html>
